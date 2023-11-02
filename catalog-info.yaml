@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: deploy-vm-centos
+  description: deploy-centos-apache
+  annotations:
+    backstage.io/kubernetes-id: deploy-vm-centos
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
